@@ -12,7 +12,7 @@ Use this library freely with Arduino 1.6.5
 - boitier_de_commandeV02 (Arduino remote CTRL firmware)
 
 ## Installation ##
-use liquid cristal i2c library:  
+use liquid cristal i2c library 
 
 ## Usage notes ##
 
@@ -48,7 +48,8 @@ uncomment for debug (in this case RS485 protocol is corrupted with debug functio
 //#define DEBUG_DBM
 ```
 
-searchDelay 20 :without LCD connected direclty on ATU
+searchDelay 20 :without LCD connected direclty on ATU <br>
+
 searchDelay 1 :with LCD connected direclty on ATU
 
 
