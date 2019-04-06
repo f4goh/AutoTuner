@@ -323,7 +323,7 @@ int curseur_map;
 
  // curseur swr depart 6 fin 19 (1ong car 19-6+1=14) 5*14=70 avec -1 marge pour pas déborder
 if (large_or_fine==1){
-        if (swr>=100) swr=70;                //changement d'échelle pour recherche large (swr max 10)
+        if (swr>=70) swr=70;                //changement d'échelle pour recherche large (swr max 10)
         curseur_map=map(swr,10,100,1,100-1);    
       }
       else
